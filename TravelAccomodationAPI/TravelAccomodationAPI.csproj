@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.72" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BusinessClass\InterFaces\" />
+    <Folder Include="ModelClass\ResponseModel\" />
+    <Folder Include="ModelClass\RequestModel\" />
+    <Folder Include="Shared\CommonMethods\" />
+    <Folder Include="Shared\Enums\" />
+    <Folder Include="Shared\CommonMessage\" />
+    <Folder Include="Shared\StoredProcedures\" />
+  </ItemGroup>
+
+</Project>
