@@ -4,7 +4,8 @@
 2. Hotel Registration (General Details,Restaurants on Property,Banquet on Property,Contact Details,Hotel Facilities,Hotel Images)
 3. Hotel Room Details
 4. Add Hotel Price
-*/
+server=43.254.41.245,1433;database=TravelPlatform_Accommodation;User Id=sa;pwd=QiqrplSJZ9Vsa
+ */
 ---------------------------------------------------------------
 select * from VendorMaster
 select * from servicemaster
